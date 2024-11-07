@@ -55,10 +55,9 @@ div.btnbg {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { body {
-    background-color: cyan;
+    /* background-color: cyan; */
   }
 }
-
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
 }
