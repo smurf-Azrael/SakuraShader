@@ -1,0 +1,64 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+html, body {margin: 0; height: 100%; overflow: hidden}
+body {
+  padding:0;
+  overflow:hidden;
+    background-color: rgb(255, 81, 0);
+  }
+canvas {
+      padding:0;
+      margin:0;
+      position: absolute;
+      top: 0;
+      z-index: -10;
+  }
+div.btnbg {
+      position:fixed;
+      left:0;
+      top:0;
+  }    
+  .div1 {
+    width: 30px;
+    height: 30px;
+    background: cyan;
+}
+
+.menux {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-1px, 6px);
+  transform: rotate(-45deg) translate(-1px, 6px);
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-1px, -8px);
+  transform: rotate(45deg) translate(-1px, -8px);
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { body {
+    background-color: cyan;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+}
